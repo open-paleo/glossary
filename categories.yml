@@ -1,0 +1,33 @@
+# The folders under terms/, in the order the glossary lists them. Each needs a
+# name readers see and a one-sentence description.
+
+naming:
+  name: Naming
+  description: How species and genera are named, and what makes a name valid.
+phylogenetics:
+  name: Family trees
+  description: How paleontologists work out which animals are related, and how closely.
+specimens:
+  name: Fossils and specimens
+  description: How fossils are found, kept and described.
+direction:
+  name: Directions
+  description: The words anatomists use for front, back, top, bottom, toward the body and away from it.
+anatomy/skull:
+  name: Skull and teeth
+  description: The bones of the skull and jaws, and the teeth.
+anatomy/vertebrae:
+  name: Backbone
+  description: The vertebrae of the neck, back, hips and tail, and their parts.
+anatomy/limbs:
+  name: Limbs and girdles
+  description: The bones of the arms and legs, and the shoulder and hip bones they attach to.
+anatomy/general:
+  name: Bone features
+  description: Bumps, ridges, holes and other features found on many bones.
+biology:
+  name: Life and habits
+  description: How dinosaurs lived, moved and fed.
+geology:
+  name: Rocks and time
+  description: The rocks fossils are found in, and how they are dated.

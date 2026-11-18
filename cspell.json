@@ -1,0 +1,17 @@
+{
+  "version": "0.2",
+  "language": "en-US",
+  "dictionaryDefinitions": [
+    {
+      "name": "glossary-words",
+      "path": "./dictionaries/words.txt",
+      "addWords": true
+    },
+    {
+      "name": "glossary-forms",
+      "path": "./scratch/forms.txt"
+    }
+  ],
+  "dictionaries": ["glossary-words", "glossary-forms"],
+  "ignorePaths": ["dist/**", "node_modules/**", "scratch/**", "package-lock.json"]
+}

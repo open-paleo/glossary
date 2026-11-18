@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/open-paleo/glossary/blob/main/schemas/glossary.schema.json",
+  "title": "OpenPaleoGlossary",
+  "description": "Plain-English definitions of the terms used in paleontology, from open-paleo/glossary.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["_metadata", "categories", "terms"],
+  "properties": {
+    "_metadata": { "$ref": "#/$defs/Metadata" },
+    "categories": {
+      "description": "The categories, in the order the glossary lists them.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/Category" }
+    },
+    "terms": {
+      "description": "The terms, by id: lowercase words joined by hyphens, such as \"nomen-dubium\".",
+      "type": "object",
+      "propertyNames": { "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+      "additionalProperties": { "$ref": "#/$defs/Term" }
+    }
+  },
+  "$defs": {
+    "Metadata": {
+      "description": "About the output.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "license", "attribution", "term_count"],
+      "properties": {
+        "schema_version": {
+          "description": "The version of this schema the output follows. A new major version is a breaking change.",
+          "type": "string",
+          "const": "1.0.0"
+        },
+        "license": { "description": "The license, as an SPDX id.", "type": "string" },
+        "attribution": { "description": "Who to credit.", "type": "string" },
+        "term_count": { "description": "How many terms the glossary holds.", "type": "integer", "minimum": 0 }
+      }
+    },
+    "Category": {
+      "description": "A group of related terms.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "description"],
+      "properties": {
+        "id": { "description": "The category's folder under terms/, such as \"anatomy/vertebrae\".", "type": "string" },
+        "name": { "description": "The name readers see.", "type": "string" },
+        "description": { "description": "What the category covers, in one sentence.", "type": "string" }
+      }
+    },
+    "Term": {
+      "description": "A term and its definition.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["term", "category", "forms", "definition"],
+      "properties": {
+        "term": { "description": "The term as the glossary lists it.", "type": "string" },
+        "category": { "description": "The id of the category it belongs to.", "type": "string" },
+        "forms": {
+          "description": "Every spelling that links to this term in text, the term itself first. Match them case-insensitively, as whole words; no form belongs to two terms.",
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string" }
+        },
+        "definition": { "description": "A plain-English definition of one or two sentences.", "type": "string" },
+        "etymology": { "description": "Where the word comes from, such as its Latin or Greek roots.", "type": "string" },
+        "see_also": {
+          "description": "The ids of related terms.",
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}
