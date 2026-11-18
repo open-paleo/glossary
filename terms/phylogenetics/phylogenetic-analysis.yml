@@ -1,0 +1,7 @@
+term: phylogenetic analysis
+forms: [phylogenetic analyses, cladistic analysis, cladistic analyses]
+definition: >-
+  A study that works out how animals are related by comparing many of their features, usually with
+  software that finds the family trees that best fit those features.
+etymology: Greek phylon, "tribe", and genesis, "origin".
+see_also: [character, consensus-tree]

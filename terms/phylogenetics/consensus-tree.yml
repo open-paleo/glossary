@@ -1,0 +1,6 @@
+term: consensus tree
+forms: [consensus trees, strict consensus, strict consensus tree]
+definition: >-
+  A family tree that combines several equally good trees from one analysis, keeping only the
+  groupings they all agree on.
+see_also: [phylogenetic-analysis, polytomy]

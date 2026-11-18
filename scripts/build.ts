@@ -51,6 +51,11 @@ type TermOutput = {
     forms: Array<string>;
 
     /**
+     * Phrases that contain a form but don't link to the term.
+     */
+    exceptions?: Array<string>;
+
+    /**
      * The plain-English definition.
      */
     definition: string;
@@ -119,6 +124,11 @@ const terms: Record<string, TermOutput> = {};
 for (const term of source.terms)
 {
     const output: TermOutput = { term: term.term, category: term.category, forms: term.forms, definition: term.definition };
+
+    if (term.exceptions.length > 0)
+    {
+        output.exceptions = term.exceptions;
+    }
 
     if (term.etymology)
     {

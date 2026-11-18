@@ -1,0 +1,6 @@
+term: wildcard taxon
+forms: [wildcard taxa, wildcard]
+definition: >-
+  An animal whose position jumps around a family tree from one analysis to the next, usually because
+  too little of it is known.
+see_also: [phylogenetic-analysis]

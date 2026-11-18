@@ -30,7 +30,9 @@ Every push to `main` builds `dist/glossary.json`. Alongside it are the JSON Sche
 ```
 
 To find terms in text, match each term's `forms` case-insensitively as whole words, trying the
-longest first, so "caudal vertebrae" wins over "caudal". No form belongs to two terms.
+longest first, so "caudal vertebrae" wins over "caudal". No form belongs to two terms. Match each
+term's `exceptions` the same way and leave them as plain text: "derived from" is not the
+family-tree sense of *derived*.
 
 `schema_version` follows semantic versioning: a new major version is a breaking change, a new
 minor version adds fields. [CHANGELOG.md](CHANGELOG.md) lists every change to the output.

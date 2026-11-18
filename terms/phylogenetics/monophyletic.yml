@@ -1,0 +1,7 @@
+term: monophyletic
+forms: [monophyly]
+definition: >-
+  Describes a group that includes an ancestor and all of its descendants. A monophyletic group is a
+  clade.
+etymology: Greek monos, "single", and phyle, "tribe".
+see_also: [paraphyletic, clade]

@@ -1,0 +1,7 @@
+term: character
+forms: [characters]
+exceptions: [movie character, witch character]
+definition: >-
+  In a phylogenetic analysis, a feature that differs among the animals studied, such as the shape of
+  a bone, recorded for each animal to work out how they are related.
+see_also: [phylogenetic-analysis]

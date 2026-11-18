@@ -1,0 +1,7 @@
+term: clade
+forms: [clades]
+definition: >-
+  A group made up of an ancestor and all of its descendants. Every branch of a family tree is a
+  clade.
+etymology: Greek klados, "branch".
+see_also: [monophyletic, sister-taxon]

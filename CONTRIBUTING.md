@@ -11,7 +11,7 @@ term: nomen dubium
 forms: [nomina dubia]
 definition: >-
   A name based on fossils that can't be reliably told apart from those of related animals, so it
-  may not stand for a distinct species or genus.
+  may not represent a distinct species or genus.
 etymology: Latin, "doubtful name".
 see_also: [synonym]
 ```
@@ -21,6 +21,7 @@ see_also: [synonym]
 | `term` | Yes | The term as the glossary lists it, in lowercase unless it is a name. |
 | `definition` | Yes | The definition: one or two sentences, under 400 characters, ending with a period. |
 | `forms` | No | Other spellings that should link to this term: plurals, adjectives, adverbs. The term itself is always a form. |
+| `exceptions` | No | Phrases that contain a form but use it in another sense, and so shouldn't link: `derived from`. |
 | `etymology` | No | Where the word comes from, such as its Latin or Greek roots. |
 | `see_also` | No | The ids (file names) of related terms. |
 
@@ -32,6 +33,8 @@ Write for a visitor who likes dinosaurs but has no training in anatomy or biolog
   "This term refers to…".
 - Use everyday words. Where another technical word can't be avoided, explain it in passing ("the
   main body of a vertebra") rather than relying on the reader to look it up.
+- When a definition says what a word means, quote the meaning: Manual means "of the hand".
+  Write straight quotation marks; the site sets them as curly ones.
 - Keep it to one or two sentences. A definition explains the word; it doesn't survey the
   science.
 - Write your own definition. Don't copy or adapt Wikipedia, textbooks or other glossaries: their
@@ -46,6 +49,9 @@ The site links every form it finds in text to the term, so the forms decide what
 - A form can belong to only one term. When a word has two meanings, give the bare word to one
   term and list longer, unambiguous forms on the other: bare *dorsal* goes to the direction, and
   *dorsals* and *dorsal vertebrae* go to the vertebra.
+- When a form is usually the term but sometimes plain English, keep it and list the phrases
+  that use it the other way as `exceptions`: *derived* lists `derived from`, and *basal* (on
+  early-diverging) lists `basal tubera`. Each exception must contain one of the term's forms.
 - Leave out words whose everyday meaning is enough.
 
 ## Checks
@@ -62,7 +68,7 @@ npm run typecheck
 `validate` checks that each file has a term and a definition and no unknown fields, that each
 definition ends with a period and is under 400 characters, that no form belongs to two terms,
 and that every `see_also` names a term that exists. The spell check accepts every word in the
-terms' forms; add other words, such as Greek roots, to `dictionaries/words.txt`.
+terms' forms and exceptions; add other words, such as Greek roots, to `dictionaries/words.txt`.
 
 ## Changing the output
 

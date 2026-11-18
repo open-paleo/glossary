@@ -1,0 +1,7 @@
+term: combined directions
+forms: [anteroposterior, anteroposteriorly, dorsoventral, dorsoventrally, mediolateral, mediolaterally, lateromedially, proximodistal, proximodistally, craniocaudally, rostrocaudally, anterodorsal, anterodorsally, anteroventral, anteroventrally, posterodorsal, posterodorsally, posteroventral, posteroventrally, anterolateral, anterolaterally, posterolateral, posterolaterally, anteromedial, anteromedially, posteromedial, posteromedially, dorsolateral, dorsolaterally, ventrolateral, ventrolaterally, dorsomedial, dorsomedially]
+definition: >-
+  Words that join two directions. Anteroposterior means "from front to back", so a bone that is
+  anteroposteriorly long is long from front to back; anterodorsal means "toward the front and the
+  top".
+see_also: [anterior, dorsal, medial, proximal]

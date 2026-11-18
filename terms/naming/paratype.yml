@@ -1,0 +1,7 @@
+term: paratype
+forms: [paratypes]
+definition: >-
+  A specimen the authors who named a species listed alongside the holotype. Paratypes help show what
+  the species was like, but the name isn't tied to them.
+etymology: Greek para, "beside", and typos, "model".
+see_also: [holotype]

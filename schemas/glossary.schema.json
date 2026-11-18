@@ -30,7 +30,7 @@
         "schema_version": {
           "description": "The version of this schema the output follows. A new major version is a breaking change.",
           "type": "string",
-          "const": "1.0.0"
+          "const": "1.1.0"
         },
         "license": { "description": "The license, as an SPDX id.", "type": "string" },
         "attribution": { "description": "Who to credit.", "type": "string" },
@@ -60,6 +60,11 @@
           "description": "Every spelling that links to this term in text, the term itself first. Match them case-insensitively, as whole words; no form belongs to two terms.",
           "type": "array",
           "minItems": 1,
+          "items": { "type": "string" }
+        },
+        "exceptions": {
+          "description": "Phrases that contain one of the forms but use it in another sense, such as \"derived from\". Match them along with the forms, longest first, and leave a match as plain text.",
+          "type": "array",
           "items": { "type": "string" }
         },
         "definition": { "description": "A plain-English definition of one or two sentences.", "type": "string" },

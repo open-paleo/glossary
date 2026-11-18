@@ -1,0 +1,7 @@
+term: lectotype
+forms: [lectotypes]
+definition: >-
+  A specimen chosen after a species was named, from among its syntypes, to be the single specimen
+  its name is tied to.
+etymology: Greek lektos, "chosen", and typos, "model".
+see_also: [syntype, holotype]

@@ -51,6 +51,12 @@ export type Term = {
     forms: Array<string>;
 
     /**
+     * Phrases that contain a form but use it in another sense, and so don't link, such as
+     * "derived from".
+     */
+    exceptions: Array<string>;
+
+    /**
      * The plain-English definition.
      */
     definition: string;
@@ -92,7 +98,7 @@ const termsDirectory = path.join(rootDirectory, "terms");
 const categoriesPath = path.join(rootDirectory, "categories.yml");
 
 // The fields a term file may have.
-const termFields = new Set(["term", "forms", "definition", "etymology", "see_also"]);
+const termFields = new Set(["term", "forms", "exceptions", "definition", "etymology", "see_also"]);
 
 // The longest definition, in characters: about two sentences.
 const maximumDefinitionLength = 400;
@@ -268,10 +274,33 @@ function readTerm(filePath: string, problems: Array<string>): Term | undefined
         category,
         term: fields.term,
         forms,
+        exceptions: readTextList(fields.exceptions, "exceptions", file, problems),
         definition: fields.definition,
         etymology: isCleanText(fields.etymology) ? fields.etymology : undefined,
         seeAlso: readTextList(fields.see_also, "see_also", file, problems),
     };
+}
+
+/**
+ * Check whether a phrase contains one of a term's forms as a whole word.
+ *
+ * @param phrase - The phrase.
+ * @param forms - The term's forms.
+ * @returns Whether it does.
+ */
+function containsForm(phrase: string, forms: Array<string>): boolean
+{
+    const words = " " + phrase.toLowerCase().replace(/[^\p{L}\p{N}-]+/gu, " ") + " ";
+
+    for (const form of forms)
+    {
+        if (words.includes(" " + form.toLowerCase() + " "))
+        {
+            return true;
+        }
+    }
+
+    return false;
 }
 
 /**
@@ -351,6 +380,14 @@ function checkTerms(categories: Array<Category>, terms: Array<Term>, problems: A
             }
 
             termByForm.set(key, term.id);
+        }
+
+        for (const exception of term.exceptions)
+        {
+            if (!containsForm(exception, term.forms))
+            {
+                problems.push(file + ": the exception \"" + exception + "\" contains none of the term's forms");
+            }
         }
 
         for (const related of term.seeAlso)

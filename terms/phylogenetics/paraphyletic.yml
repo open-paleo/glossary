@@ -1,0 +1,7 @@
+term: paraphyletic
+forms: [paraphyly]
+definition: >-
+  Describes a group that includes an ancestor but only some of its descendants, such as reptiles
+  without birds.
+etymology: Greek para, "beside", and phyle, "tribe".
+see_also: [monophyletic, grade]

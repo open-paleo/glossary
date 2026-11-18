@@ -1,0 +1,6 @@
+term: derived
+exceptions: [derived from]
+definition: >-
+  Describes a member of a group that branched off later in the group's family tree, or a feature
+  that changed from the ancestral condition. The opposite of early-diverging.
+see_also: [early-diverging, plesiomorphic]

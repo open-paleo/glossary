@@ -1,0 +1,5 @@
+term: type species
+definition: >-
+  The species a genus name is tied to. A genus is defined by its type species, as a species is
+  defined by its holotype.
+see_also: [holotype]

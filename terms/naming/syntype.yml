@@ -1,0 +1,7 @@
+term: syntype
+forms: [syntypes]
+definition: >-
+  One of several specimens that together served as the basis for a name, when no single holotype was
+  chosen.
+etymology: Greek syn, "together", and typos, "model".
+see_also: [lectotype, holotype]

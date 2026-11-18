@@ -1,0 +1,7 @@
+term: holotype
+forms: [holotypes]
+definition: >-
+  The single specimen a species' name is tied to, chosen when the species is named. Other fossils
+  are compared with it to decide whether they belong to the same species.
+etymology: Greek holos, "whole", and typos, "model".
+see_also: [type-specimen, paratype, referred-specimen]

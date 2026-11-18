@@ -1,0 +1,7 @@
+term: polytomy
+forms: [polytomies]
+definition: >-
+  A point on a family tree where three or more branches split at once, because the analysis couldn't
+  settle the order in which they branched.
+etymology: Greek polys, "many", and tome, "cut".
+see_also: [consensus-tree]

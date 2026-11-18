@@ -3,13 +3,14 @@ import * as path from "node:path";
 
 import { readGlossarySource, rootDirectory } from "./glossary-source.ts";
 
-// Writes every word in the terms' forms to scratch/forms.txt, so the spell check accepts them.
+// Writes every word in the terms' forms and exceptions to scratch/forms.txt, so the spell check
+// accepts them.
 
 const words = new Set<string>();
 
 for (const term of readGlossarySource().terms)
 {
-    for (const form of term.forms)
+    for (const form of [...term.forms, ...term.exceptions])
     {
         for (const word of form.split(/[\s-]+/))
         {

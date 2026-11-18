@@ -1,0 +1,6 @@
+term: grade
+forms: [grades]
+definition: >-
+  A set of animals at a similar stage of evolution that don't form a single clade, such as the early
+  sauropodomorphs once grouped together as prosauropods.
+see_also: [paraphyletic, clade]

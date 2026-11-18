@@ -1,0 +1,6 @@
+term: least-inclusive clade
+forms: [least inclusive clade, least-inclusive]
+definition: >-
+  The smallest clade that contains all the named animals. Defining a clade this way picks out the
+  last common ancestor of those animals and all its descendants.
+see_also: [clade]
