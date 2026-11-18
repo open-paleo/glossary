@@ -236,7 +236,18 @@ function readTerm(filePath: string, problems: Array<string>): Term | undefined
     const file = "terms/" + relativePath;
     const category = path.posix.dirname(relativePath);
     const id = path.posix.basename(relativePath, ".yml");
-    const data: unknown = parse(fs.readFileSync(filePath, "utf8"));
+    let data: unknown;
+
+    try
+    {
+        data = parse(fs.readFileSync(filePath, "utf8"));
+    }
+    catch (error)
+    {
+        problems.push(file + ": not valid YAML: " + (error instanceof Error ? error.message.split("\n")[0] : String(error)));
+
+        return undefined;
+    }
 
     if (typeof data !== "object" || data === null || Array.isArray(data))
     {

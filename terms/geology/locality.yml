@@ -1,0 +1,4 @@
+term: locality
+forms: [localities, type locality]
+definition: The place where a fossil was found. The type locality is where the holotype was found.
+see_also: [holotype]

@@ -1,0 +1,6 @@
+term: node-based
+forms: [node-based clade, node-based clades]
+definition: >-
+  Describes a clade defined as the last common ancestor of two or more named animals and all of its
+  descendants.
+see_also: [stem, least-inclusive-clade]

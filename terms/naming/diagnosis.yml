@@ -1,0 +1,7 @@
+term: diagnosis
+forms: [diagnoses, diagnostic]
+definition: >-
+  The list of features that sets a species or genus apart from its relatives, published with its
+  name or in a later study. A diagnostic feature is one that identifies it.
+etymology: Greek, "distinguishing".
+see_also: [autapomorphy, nomen-dubium]

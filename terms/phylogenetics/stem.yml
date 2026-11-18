@@ -1,0 +1,6 @@
+term: stem
+forms: [stem-based, stemward, stem lineage, stem group]
+definition: >-
+  The extinct relatives of a group that branched off before its last common ancestor. A stem-based
+  clade is defined as everything closer to one animal than to another.
+see_also: [node-based, clade]

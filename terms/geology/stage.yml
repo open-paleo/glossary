@@ -1,0 +1,7 @@
+term: stage
+forms: [stages]
+exceptions: [growth stage, growth stages, ontogenetic stage]
+definition: >-
+  A division of geologic time within an epoch, lasting a few million years, such as the
+  Maastrichtian.
+see_also: [epoch]
