@@ -3,7 +3,7 @@
     "schema_version": "1.1.0",
     "license": "CC-BY-4.0",
     "attribution": "Open Paleo contributors",
-    "term_count": 212
+    "term_count": 242
   },
   "categories": [
     {
@@ -311,7 +311,8 @@
       "definition": "Walking on two legs.",
       "etymology": "Latin bi-, \"two\", and pes, \"foot\".",
       "see_also": [
-        "quadrupedal"
+        "quadrupedal",
+        "facultatively-bipedal"
       ]
     },
     "bonebed": {
@@ -364,6 +365,15 @@
         "astragalus",
         "fibula"
       ]
+    },
+    "caniniform": {
+      "term": "caniniform",
+      "category": "anatomy/skull",
+      "forms": [
+        "caniniform"
+      ],
+      "definition": "Of a tooth: large and pointed, like a dog's canine tooth.",
+      "etymology": "Latin canis, \"dog\", and forma, \"shape\"."
     },
     "carina": {
       "term": "carina",
@@ -674,6 +684,19 @@
       "definition": "Built for running, with long, slender legs.",
       "etymology": "Latin cursor, \"runner\"."
     },
+    "deltaic": {
+      "term": "deltaic",
+      "category": "geology",
+      "forms": [
+        "deltaic"
+      ],
+      "definition": "Formed in a delta, where a river slows, spreads out and drops its sediment as it meets the sea or a lake.",
+      "etymology": "The Greek letter delta, for the triangular shape of the Nile's delta.",
+      "see_also": [
+        "fluvial",
+        "estuarine"
+      ]
+    },
     "deltopectoral-crest": {
       "term": "deltopectoral crest",
       "category": "anatomy/limbs",
@@ -873,6 +896,21 @@
         "predentary"
       ]
     },
+    "emended-spelling": {
+      "term": "emended spelling",
+      "category": "naming",
+      "forms": [
+        "emended spelling",
+        "emended spellings",
+        "emendation",
+        "emendations"
+      ],
+      "definition": "A deliberate change to the way a name was spelled when it was published, such as to correct a printing error or the name's Latin.",
+      "etymology": "Latin emendare, \"to correct\".",
+      "see_also": [
+        "synonym"
+      ]
+    },
     "epiparietal": {
       "term": "epiparietal",
       "category": "anatomy/skull",
@@ -916,7 +954,20 @@
       "definition": "A division of geologic time within a period, such as the Late Cretaceous within the Cretaceous.",
       "etymology": "Greek epoche, \"pause\".",
       "see_also": [
+        "period",
         "stage"
+      ]
+    },
+    "estuarine": {
+      "term": "estuarine",
+      "category": "geology",
+      "forms": [
+        "estuarine"
+      ],
+      "definition": "Formed in an estuary, the wide mouth of a river where its fresh water mixes with the sea's salt water.",
+      "etymology": "Latin aestuarium, \"tidal inlet\".",
+      "see_also": [
+        "deltaic"
       ]
     },
     "facet": {
@@ -930,6 +981,23 @@
       "see_also": [
         "articulation",
         "condyle"
+      ]
+    },
+    "facultatively-bipedal": {
+      "term": "facultatively bipedal",
+      "category": "biology",
+      "forms": [
+        "facultatively bipedal",
+        "facultative biped",
+        "facultative bipeds",
+        "facultative bipedality",
+        "facultative bipedalism"
+      ],
+      "definition": "Able to walk on two legs or on four, and to switch between them. Such an animal might walk slowly or feed on all fours, and rise onto its hind legs to run or to use its hands.",
+      "etymology": "Latin facultas, \"ability\".",
+      "see_also": [
+        "bipedal",
+        "quadrupedal"
       ]
     },
     "family": {
@@ -1003,6 +1071,19 @@
       "definition": "A thin rim or plate of bone that sticks out.",
       "see_also": [
         "process"
+      ]
+    },
+    "fluvial": {
+      "term": "fluvial",
+      "category": "geology",
+      "forms": [
+        "fluvial"
+      ],
+      "definition": "Formed by rivers and streams, or living along them.",
+      "etymology": "Latin fluvius, \"river\".",
+      "see_also": [
+        "lacustrine",
+        "deltaic"
       ]
     },
     "foramen": {
@@ -1128,6 +1209,22 @@
       "definition": "Belly ribs: thin bones in the wall of the belly that are not attached to the backbone.",
       "etymology": "Greek gaster, \"belly\"."
     },
+    "genus": {
+      "term": "genus",
+      "category": "naming",
+      "forms": [
+        "genus",
+        "genera"
+      ],
+      "definition": "A group of closely related species, and the first part of each species' name: Tyrannosaurus in Tyrannosaurus rex. A genus is monotypic if it has only one species, as most dinosaur genera do.",
+      "etymology": "Latin genus, \"kind\".",
+      "see_also": [
+        "species",
+        "monotypic",
+        "type-species",
+        "family"
+      ]
+    },
     "girdle": {
       "term": "girdle",
       "category": "anatomy/general",
@@ -1210,6 +1307,20 @@
         "referred-specimen"
       ]
     },
+    "horizon": {
+      "term": "horizon",
+      "category": "geology",
+      "forms": [
+        "horizon",
+        "horizons",
+        "type horizon"
+      ],
+      "definition": "A particular layer or level within a series of rocks, used to say exactly where a fossil was found. The type horizon is the layer the holotype came from.",
+      "see_also": [
+        "strata",
+        "locality"
+      ]
+    },
     "horncore": {
       "term": "horncore",
       "category": "anatomy/skull",
@@ -1266,6 +1377,20 @@
         "zygapophysis"
       ]
     },
+    "iczn": {
+      "term": "ICZN",
+      "category": "naming",
+      "forms": [
+        "ICZN",
+        "International Commission on Zoological Nomenclature",
+        "International Code of Zoological Nomenclature"
+      ],
+      "definition": "The International Commission on Zoological Nomenclature, which keeps the rules for naming animals and settles hard cases in rulings called Opinions. ICZN also stands for the rules themselves, the International Code of Zoological Nomenclature.",
+      "see_also": [
+        "valid",
+        "nomen-rejectum"
+      ]
+    },
     "ilium": {
       "term": "ilium",
       "category": "anatomy/limbs",
@@ -1289,6 +1414,33 @@
       ],
       "definition": "Used for an animal that belongs to a larger group when where it fits within that group can't be decided.",
       "etymology": "Latin, \"of uncertain placement\"."
+    },
+    "insectivore": {
+      "term": "insectivore",
+      "category": "biology",
+      "forms": [
+        "insectivore",
+        "insectivores",
+        "insectivorous"
+      ],
+      "definition": "An animal that eats mainly insects.",
+      "etymology": "Latin insectum, \"insect\", and vorare, \"to devour\".",
+      "see_also": [
+        "piscivore"
+      ]
+    },
+    "integument": {
+      "term": "integument",
+      "category": "biology",
+      "forms": [
+        "integument"
+      ],
+      "definition": "The outer covering of an animal's body: its skin and what grows in or from it, such as scales, feathers or bony armor.",
+      "etymology": "Latin integumentum, \"covering\".",
+      "see_also": [
+        "osteoderm",
+        "pennaceous"
+      ]
     },
     "intercentrum": {
       "term": "intercentrum",
@@ -1358,6 +1510,16 @@
         "ontogeny"
       ]
     },
+    "keratin": {
+      "term": "keratin",
+      "category": "biology",
+      "forms": [
+        "keratin",
+        "keratinous"
+      ],
+      "definition": "The tough material that makes up hair, nails, claws, feathers and beaks. A keratinous beak or horn is a keratin sheath over the bone, and the sheath itself rarely fossilizes.",
+      "etymology": "Greek keras, \"horn\"."
+    },
     "labial": {
       "term": "labial",
       "category": "direction",
@@ -1385,6 +1547,18 @@
       "see_also": [
         "orbit",
         "antorbital-fenestra"
+      ]
+    },
+    "lacustrine": {
+      "term": "lacustrine",
+      "category": "geology",
+      "forms": [
+        "lacustrine"
+      ],
+      "definition": "Formed in a lake, or living in or around one.",
+      "etymology": "Latin lacus, \"lake\".",
+      "see_also": [
+        "fluvial"
       ]
     },
     "lamina": {
@@ -1494,6 +1668,20 @@
         "holotype"
       ]
     },
+    "locomotion": {
+      "term": "locomotion",
+      "category": "biology",
+      "forms": [
+        "locomotion"
+      ],
+      "definition": "How an animal moves from place to place. Dinosaurs walked on two legs, on four, or on either.",
+      "etymology": "Latin locus, \"place\", and motio, \"movement\".",
+      "see_also": [
+        "bipedal",
+        "quadrupedal",
+        "facultatively-bipedal"
+      ]
+    },
     "mandible": {
       "term": "mandible",
       "category": "anatomy/skull",
@@ -1562,6 +1750,19 @@
       "etymology": "Greek mesos, \"middle\".",
       "see_also": [
         "distal"
+      ]
+    },
+    "mesozoic": {
+      "term": "Mesozoic",
+      "category": "geology",
+      "forms": [
+        "Mesozoic"
+      ],
+      "definition": "The era from about 252 to 66 million years ago, made up of the Triassic, Jurassic and Cretaceous periods. Non-avian dinosaurs lived only in the Mesozoic.",
+      "etymology": "Greek mesos, \"middle\", and zoe, \"life\".",
+      "see_also": [
+        "period",
+        "non-avian-dinosaur"
       ]
     },
     "metacarpal": {
@@ -1725,6 +1926,20 @@
         "synonym"
       ]
     },
+    "nomen-ex-dissertatione": {
+      "term": "nomen ex dissertatione",
+      "category": "naming",
+      "forms": [
+        "nomen ex dissertatione",
+        "nomina ex dissertatione"
+      ],
+      "definition": "A name that appeared only in a thesis. A thesis doesn't count as publication under the naming rules, so the name isn't valid.",
+      "etymology": "Latin, \"name from a dissertation\".",
+      "see_also": [
+        "nomen-nudum",
+        "valid"
+      ]
+    },
     "nomen-nudum": {
       "term": "nomen nudum",
       "category": "naming",
@@ -1738,6 +1953,33 @@
         "valid"
       ]
     },
+    "nomen-oblitum": {
+      "term": "nomen oblitum",
+      "category": "naming",
+      "forms": [
+        "nomen oblitum",
+        "nomina oblita"
+      ],
+      "definition": "An older name that went unused for so long that a younger name in wide use for the same animal was allowed to take its place, reversing the usual rule that the oldest name wins.",
+      "etymology": "Latin, \"forgotten name\".",
+      "see_also": [
+        "synonym"
+      ]
+    },
+    "nomen-rejectum": {
+      "term": "nomen rejectum",
+      "category": "naming",
+      "forms": [
+        "nomen rejectum",
+        "nomina rejecta"
+      ],
+      "definition": "A name the ICZN has formally ruled out of use, usually to protect a better-known name for the same animal.",
+      "etymology": "Latin, \"rejected name\".",
+      "see_also": [
+        "iczn",
+        "synonym"
+      ]
+    },
     "non-avian-dinosaur": {
       "term": "non-avian dinosaur",
       "category": "biology",
@@ -1748,6 +1990,22 @@
       ],
       "definition": "Any dinosaur other than a bird. Birds are dinosaurs, so \"non-avian\" sets apart the rest.",
       "etymology": "Latin avis, \"bird\"."
+    },
+    "objective-synonym": {
+      "term": "objective synonym",
+      "category": "naming",
+      "forms": [
+        "objective synonym",
+        "objective synonyms",
+        "junior objective synonym",
+        "junior objective synonyms"
+      ],
+      "definition": "A name that rests on the same type specimen as another name, so the two must refer to the same animal. Unlike a subjective synonym, it isn't a matter of opinion.",
+      "see_also": [
+        "synonym",
+        "subjective-synonym",
+        "type-specimen"
+      ]
     },
     "obturator": {
       "term": "obturator",
@@ -2018,6 +2276,25 @@
       "definition": "Of feathers: having a central shaft with a flat vane on each side, like a bird's flight feathers, rather than being simple filaments.",
       "etymology": "Latin penna, \"feather\"."
     },
+    "period": {
+      "term": "period",
+      "category": "geology",
+      "forms": [
+        "period",
+        "periods"
+      ],
+      "definition": "A division of geologic time lasting tens of millions of years, such as the Jurassic. Periods are divided into epochs, and epochs into stages.",
+      "exceptions": [
+        "long period",
+        "Three Kingdoms period"
+      ],
+      "etymology": "Greek periodos, \"cycle\".",
+      "see_also": [
+        "mesozoic",
+        "epoch",
+        "stage"
+      ]
+    },
     "pes": {
       "term": "pes",
       "category": "anatomy/limbs",
@@ -2061,6 +2338,20 @@
       "see_also": [
         "character",
         "consensus-tree"
+      ]
+    },
+    "piscivore": {
+      "term": "piscivore",
+      "category": "biology",
+      "forms": [
+        "piscivore",
+        "piscivores",
+        "piscivorous"
+      ],
+      "definition": "An animal that eats mainly fish.",
+      "etymology": "Latin piscis, \"fish\", and vorare, \"to devour\".",
+      "see_also": [
+        "insectivore"
       ]
     },
     "platycoelous": {
@@ -2312,6 +2603,15 @@
         "centrum"
       ]
     },
+    "procumbent": {
+      "term": "procumbent",
+      "category": "anatomy/skull",
+      "forms": [
+        "procumbent"
+      ],
+      "definition": "Of teeth: leaning forward out of the jaw rather than standing upright.",
+      "etymology": "Latin procumbere, \"to lean forward\"."
+    },
     "proximal": {
       "term": "proximal",
       "category": "direction",
@@ -2379,7 +2679,21 @@
       "definition": "Walking on four legs.",
       "etymology": "Latin quadru-, \"four\", and pes, \"foot\".",
       "see_also": [
-        "bipedal"
+        "bipedal",
+        "facultatively-bipedal"
+      ]
+    },
+    "quill-knob": {
+      "term": "quill knob",
+      "category": "anatomy/limbs",
+      "forms": [
+        "quill knob",
+        "quill knobs"
+      ],
+      "definition": "One of a row of small bumps on the ulna, a bone of the forearm, where large wing feathers were anchored. Quill knobs show that an animal had wing feathers even when none are preserved.",
+      "see_also": [
+        "ulna",
+        "pennaceous"
       ]
     },
     "radiation": {
@@ -2422,6 +2736,21 @@
         "mandible"
       ]
     },
+    "rank": {
+      "term": "rank",
+      "category": "naming",
+      "forms": [
+        "rank",
+        "ranks",
+        "unranked"
+      ],
+      "definition": "A level in a classification that places groups inside larger groups. Animals are ranked as species, genus, family and so on, though many clades are left unranked; rock units are ranked as bed, member, formation and group.",
+      "see_also": [
+        "family",
+        "clade",
+        "rock-unit"
+      ]
+    },
     "referred-specimen": {
       "term": "referred specimen",
       "category": "naming",
@@ -2449,6 +2778,19 @@
         "quadrate"
       ]
     },
+    "reworked": {
+      "term": "reworked",
+      "category": "geology",
+      "forms": [
+        "reworked",
+        "reworking"
+      ],
+      "definition": "Of a fossil: washed out of the rock it was first buried in and buried again in younger rock, so it is older than the rock it was found in.",
+      "see_also": [
+        "deposit",
+        "horizon"
+      ]
+    },
     "robust": {
       "term": "robust",
       "category": "anatomy/general",
@@ -2459,6 +2801,22 @@
       "etymology": "Latin robustus, \"strong\".",
       "see_also": [
         "gracile"
+      ]
+    },
+    "rock-unit": {
+      "term": "rock unit",
+      "category": "geology",
+      "forms": [
+        "rock unit",
+        "rock units",
+        "supergroup",
+        "supergroups"
+      ],
+      "definition": "A body of rock that geologists name and map. Rock units are ranked by size: a group holds several formations, a formation can be split into members, and a member into beds.",
+      "see_also": [
+        "formation",
+        "strata",
+        "rank"
       ]
     },
     "rostral": {
@@ -2588,6 +2946,20 @@
         "osteoderm"
       ]
     },
+    "species": {
+      "term": "species",
+      "category": "naming",
+      "forms": [
+        "species"
+      ],
+      "definition": "A single kind of animal, named with its genus and a second word, as in Tyrannosaurus rex. A fossil species is told apart from its relatives by features of its bones.",
+      "etymology": "Latin species, \"kind\" or \"appearance\".",
+      "see_also": [
+        "genus",
+        "specific-epithet",
+        "holotype"
+      ]
+    },
     "specific-epithet": {
       "term": "specific epithet",
       "category": "naming",
@@ -2702,6 +3074,22 @@
       "definition": "A group of related genera within a family. Subfamily names end in -inae, as in Tyrannosaurinae.",
       "see_also": [
         "family"
+      ]
+    },
+    "subjective-synonym": {
+      "term": "subjective synonym",
+      "category": "naming",
+      "forms": [
+        "subjective synonym",
+        "subjective synonyms",
+        "junior subjective synonym",
+        "junior subjective synonyms",
+        "possible subjective synonym"
+      ],
+      "definition": "A name judged to belong to the same animal as another name, though the two rest on different specimens. Because it is a judgment, other researchers can disagree and keep the names apart.",
+      "see_also": [
+        "synonym",
+        "objective-synonym"
       ]
     },
     "sulcus": {
@@ -2934,6 +3322,20 @@
         "vertebra"
       ]
     },
+    "tribe": {
+      "term": "tribe",
+      "category": "naming",
+      "forms": [
+        "tribe",
+        "tribes"
+      ],
+      "definition": "A rank between genus and subfamily that groups related genera. Tribe names end in -ini, as in Aeolosaurini.",
+      "etymology": "Latin tribus, \"tribe\".",
+      "see_also": [
+        "subfamily",
+        "rank"
+      ]
+    },
     "trochanter": {
       "term": "trochanter",
       "category": "anatomy/limbs",
@@ -2964,6 +3366,19 @@
       "see_also": [
         "process",
         "trochanter"
+      ]
+    },
+    "type-genus": {
+      "term": "type genus",
+      "category": "naming",
+      "forms": [
+        "type genus",
+        "type genera"
+      ],
+      "definition": "The genus a family or other group is named after and tied to, as Tyrannosauridae is named after Tyrannosaurus.",
+      "see_also": [
+        "type-species",
+        "family"
       ]
     },
     "type-species": {
