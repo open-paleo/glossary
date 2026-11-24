@@ -1,0 +1,6 @@
+term: rock unit
+forms: [rock units, supergroup, supergroups]
+definition: >-
+  A body of rock that geologists name and map. Rock units are ranked by size: a group holds several
+  formations, a formation can be split into members, and a member into beds.
+see_also: [formation, strata, rank]

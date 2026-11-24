@@ -1,0 +1,8 @@
+term: period
+forms: [periods]
+exceptions: [long period, Three Kingdoms period]
+definition: >-
+  A division of geologic time lasting tens of millions of years, such as the Jurassic. Periods are
+  divided into epochs, and epochs into stages.
+etymology: Greek periodos, "cycle".
+see_also: [mesozoic, epoch, stage]

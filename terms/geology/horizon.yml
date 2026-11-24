@@ -1,0 +1,6 @@
+term: horizon
+forms: [horizons, type horizon]
+definition: >-
+  A particular layer or level within a series of rocks, used to say exactly where a fossil was
+  found. The type horizon is the layer the holotype came from.
+see_also: [strata, locality]

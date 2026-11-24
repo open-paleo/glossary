@@ -1,0 +1,7 @@
+term: rank
+forms: [ranks, unranked]
+definition: >-
+  A level in a classification that places groups inside larger groups. Animals are ranked as
+  species, genus, family and so on, though many clades are left unranked; rock units are ranked as
+  bed, member, formation and group.
+see_also: [family, clade, rock-unit]

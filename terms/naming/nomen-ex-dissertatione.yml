@@ -1,0 +1,7 @@
+term: nomen ex dissertatione
+forms: [nomina ex dissertatione]
+definition: >-
+  A name that appeared only in a thesis. A thesis doesn't count as publication under the naming
+  rules, so the name isn't valid.
+etymology: Latin, "name from a dissertation".
+see_also: [nomen-nudum, valid]
